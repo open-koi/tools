@@ -166,6 +166,14 @@ export class Common {
   getContractState(): Promise<any> {
     return this._readContract();
   }
+  
+  /**
+   * Gets the current arweave network state
+   * @returns Current Arweave system state
+   */
+  getContractState(): Promise<any> {
+    return this.arweave.network.getInfo();
+  }
 
   /**
    * Get contract state
