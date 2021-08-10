@@ -1,6 +1,6 @@
 {
   "name": "@_koi/sdk",
-  "version": "2.2.0-beta.0",
+  "version": "2.2.0-beta.2",
   "description": "",
   "main": "./node/node.js",
   "browser": "./web/web.js",
@@ -32,7 +32,7 @@
     "pem-jwk": "^2.0.0",
     "redis": "^3.1.2",
     "smartweave": "^0.4.29",
-    "swicw": "koii-network/swicw",
+    "swicw": "koii-network/swicw#sequential-state",
     "web3": "^1.5.0"
   },
   "devDependencies": {

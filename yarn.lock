@@ -8403,9 +8403,9 @@ swarm-js@^0.1.40:
     tar "^4.0.2"
     xhr-request "^1.0.1"
 
-swicw@koii-network/swicw:
+swicw@koii-network/swicw#sequential-state:
   version "1.0.0"
-  resolved "https://codeload.github.com/koii-network/swicw/tar.gz/1a4bd6f9994803c2334d629a03830c40761e68f0"
+  resolved "https://codeload.github.com/koii-network/swicw/tar.gz/567d2ee67768ec753a7aaf4e089dc803b161d157"
   dependencies:
     smartweave "0.4.31"
 
